@@ -1,1 +1,2 @@
-Searchable PDF Reference Manual for TIS:100
+# TIS-100
+Searchable PDF Reference Manual
