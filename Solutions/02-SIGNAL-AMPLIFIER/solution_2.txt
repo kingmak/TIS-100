@@ -1,0 +1,20 @@
+                 IN.A
+
+|---------------|---------------|----------------|---------------|
+|               | MOV UP, DOWN  | MOV LEFT, ACC  | COMMUNICATION |
+|               | MOV UP, RIGHT | ADD ACC        | FAILURE       |
+|               |               | MOV ACC, DOWN  |               |
+|---------------|---------------|----------------|---------------|
+|               | MOV UP, ACC   | MOV UP, DOWN   |               |
+|               | ADD ACC       |                |               |
+|               | MOV ACC, DOWN |                |               |
+|---------------|---------------|----------------|---------------|
+| COMMUNICATION | MOV UP, RIGHT | MOV LEFT, DOWN |               |
+| FAILURE       |               | MOV UP, DOWN   |               |
+|---------------|---------------|----------------|---------------|
+
+                                            OUT.A 
+
+
+
+# PARALLEL SOLUTION aka DOING TWO SUMS IN ONE GO
